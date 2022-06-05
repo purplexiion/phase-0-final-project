@@ -1,4 +1,70 @@
-body {
-    background: blue;
-  }
+h1{
+  box-sizing: border-box;
+  margin:0;
+  padding:0%;
+  font-family: "Palatino Linotype", "Avenir";
+  font-size: 19px;
+  letter-spacing: 0.8px;
+  word-spacing: 1.6px;
+  color: #000000;
+  font-weight: Bold;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+
+.navbar{
+  background-color:white;
+  height:10%;
+  display:flex;
+  font-family: "Palatino Linotype", "Avenir";
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  word-spacing: 1.6px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+  justify-content:left;
+  align-content:center;
+  align-items:center;
+  font-size: 1.2rem;
+  position:sticky;
+  z-index:999;
+}
+
+body{
+font-family:Avenir;
+background-color: blue;
+background: -moz-linear-gradient(left, #136DA4 0%, #6517CB 50%, #75106F 100%);
+background: -webkit-linear-gradient(left, #136DA4 0%, #6517CB 50%, #75106F 100%);
+background: linear-gradient(to right, #136DA4 0%, #6517CB 50%, #75106F 100%);
+}
+
+
+dt{
+  letter-spacing: 0.8px;
+  word-spacing: 1.6px;
+  font-weight:normal;
+ font-style:normal;
+ background-color:pink;
+}
+
+ul{
  
+ font-weight:normal;
+ font-style:normal;
+ font-size: 15px;
+}
+
+div.p{
+  text-align:center;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  letter-spacing: 0.8px;
+  word-spacing: 1.6px;
+}
