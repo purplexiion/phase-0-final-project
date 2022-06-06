@@ -1,43 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wamuyu's First Project</title>
-        <link rel="stylesheet" href="style.css" />
-      </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phase-0 Project</title>
+  <link rel ="stylesheet" href="style.css">
+  <link rel="stylesheet"media="screen and (max-width:800px;)" href="tablet.css">
+  <link rel="stylesheet" href="phone.css" media="screen and (max-width:530px;)" href="phone.css">
+</head>
+<body>
+  <nav class ="navbar">
+    <ul>
+      <li><a href= "#home"> Home</a></li>
+      <li><a href= "#About"> About </a></li>
+      <li><a href= "#Passions"> Passions</a></li>
+      <li><a href= "#Contact"> Contact Me</a></li>
+    </ul>
+  </nav>
+<section id="home">
+  <div class="main">
+    <h1 class="headings">Welcome to<br> Wamuyu's Website</h1>
+    <button class="btn">Find out more about Wamuyu
+      </button>
+  </div>
+</section>
+<section id="About"> 
+  <h1 class="headings">About</h1>
+  <div class="pic">
+    <div id="intro">
+    <h2>WAMUYU WACHIRA is</h2>
+    <p> an 18 year old teen with an extreme love and passion for technology so as to help come up with effective solutions to address the rising cases of mental health challenges seen in teenagers and youth. Having completed her K.C.S.E examinations earlier this year, Wamuyu, now a student at Moringa School, aims to develop her technical skills to be suitable for the job market amidst the rising demand for developers through the program.</p>
+  </div>
+</section>
+<section id="Passions">
+  <h1 class="headings">Passions and Pursuits</h1>
+  <div class="row">
+    <div class="box">
+      <img src="4257483.png" alt="">
+      <h1 class="headings">Technology</h1>
+      <p> From a young age, I have developed an extreme love for technology, whether it is AI, the era of Social Media, web and App development. Apart from that, I am especially interested with how we can use technology to stop social and economic issues in the country, one app at a time</p>
+    </div>
+    <div class="box">
+      <img src="images.jpeg" alt="">
+      <h1 class="headings">Creative Writing</h1>
+      <p>Apart from tech related things, I also write a lot. Most of them being poems and short stories, adding on to a classification of rants where i just share what is on my mind, mostly based on spiritual matters and living as a Christian youth in this day and age.</p>
+    </div>
+    <div class="box">
+      <img src="donwload.png" alt="">
+      <h1 class="headings">F.T.N.D<br></h1>
+      <p>It has always been my dream to work for this non-profit organization because of what they stand for and fight for which is dignity of human rights. They help reduce the cases of sex and child-trafficking while educating users on the harmful effects of pornography.</p>
+    </div>
+  </div>
+</section>
+<section id="Contact">
+  <h1 class="headings">Contact Me</h1>
+  <input type="text"name="name" class="input" placeholder="Enter Your Name">
+  <input type="email"name="email" class="input" placeholder="Enter Your Email Address">
+  <textarea name="msg" id="msg" cols="30" rows="10" 
+  placeholder="Enter your Message"></textarea>
+  <input type="submit" value="Send" Id="send">
+</section>
 
-  <body>
-        <h1>Wamuyu's First Website:A Moringa School Project</h1>
-        <p><q>If Christ has died for me, ungodly as I am, without strength as I am, then I cannot live in sin any longer, but must arouse myself to love and serve Him who has redeemed me. - Charles Haddon Spurgeon</q></p>
-        <nav class ="navbar">
-          <div class="navbar__container">
-            <div class="navbar__toggle" id="mobile-menu">
-              <span class="bar"></span>
-            </div>
-              </li>
-            </ul>
-              <script src="script.js"></script>
-              <div id="content">
-                <dl>
-                  <dt>Who is Wamuyu?</dt>
-                  <dd>She is an 18 year-old girl from Nairobi,Kenya who has a passion for technology, especially Software and Game Development. She is also very passionate about Christianity, and the Gospel truth as a whole. She is currently a student at Moringa School where she is studying Software Engineering</dd>
-                  <dt>What are her likes?</dt>
-                  <dd>
-                  <ul>
-                  <li>90's and Early 2000 music</li>
-                  <li>Classic Games like Midnight Club 3 and Burnout Revenge</li>
-                  <li>True Crime Podcasts...plus Conspiracy theories too</li>
-                  <li>Worship Music...but make it drill, rap and lo-fi</li>
-                  <li>Food and various cooking technologies</li>
-                  </ul>
-                  </dd>
-                  </dl>
-                <h3>Check this guys out</h3>
-                <a href ="https://fightthenewdrug.org/">Fight the New Drug</a>
-              </div>
-          </div>
-      </nav>
-    </body>
+</body>
 </html>
